@@ -21,22 +21,32 @@ body {
 .container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgba(187, 184, 184, 0.829);
+    /*když zmenším velikost prohlížeče itemy vytečou ven z kontejneru, nevím jak to vyřešit.. - pozadí už není šedé, ale bílé*/
+    background-color: rgba(240, 234, 234, 0.726);
     flex-direction: row;
-    justify-content: space-evenly;
+    border-radius: 3%;
+    /*rohy nejsou hezky zaoblené, ale mají pořád takovou zlváštní hranu..*/
 }
 
 .item {
-    background-color: white;
     flex-grow: 1;
+    flex-shrink: 0;
     flex-basis: 22%;
+    background-color: white;
     border-radius: 2%;
     padding: 2rem;
     margin: 2rem;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+    /*nepodařilo se mi dát obsah items na střed a nevím proč..*/
 }
 
-img {
+.foto {
     border-radius: 50%;
     width: 150px;
+}
+
+.socialmedia {
+    width: 35px;
+    height: 35px;
 }
