@@ -21,11 +21,11 @@ body {
 .container {
     display: flex;
     flex-wrap: nowrap;
-    /*když zmenším velikost prohlížeče itemy vytečou ven z kontejneru, nevím jak to vyřešit.. - pozadí už není šedé, ale bílé*/
+    /*když zmenším velikost prohlížeče itemy vytečou ven z kontejneru, nevím jak to vyřešit.. - pozadí za items (kontejner) už není šedé, ale bílé*/
     background-color: rgba(240, 234, 234, 0.726);
     flex-direction: row;
     border-radius: 3%;
-    /*rohy nejsou hezky zaoblené, ale mají pořád takovou zlváštní hranu..*/
+    /*rohy nejsou hezky zaoblené, mají pořád takovou zvláštní hranu..*/
 }
 
 .item {
@@ -38,7 +38,7 @@ body {
     margin: 2rem;
     justify-content: center;
     align-items: center;
-    /*nepodařilo se mi dát obsah items na střed a nevím proč..*/
+    /*nepodařilo se mi dát obsah items na střed a nevím proč - respektive v menším  okně prohlížeče profilové fotky a popisky vypadají jakože jsou uprostřed, ale po roztažení prohlížeče se posunou víc vlevo..*/
 }
 
 .foto {
