@@ -41,7 +41,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     /*nepodařilo se mi dát obsah items na střed a nevím proč - respektive v menším  okně prohlížeče profilové fotky a popisky vypadají jakože jsou uprostřed, ale po roztažení prohlížeče se posunou víc vlevo..*/
 }
 
